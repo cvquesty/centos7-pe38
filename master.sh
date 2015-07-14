@@ -8,7 +8,7 @@ export PATH=$PATH:/opt/puppet/bin
 
 # Stop and disable Firewalld
 /bin/systemctl stop  firewalld.service
-/bin/systemctl disable firewlld.service
+/bin/systemctl disable firewalld.service
 
 # Place the r10k configuration file
 cat > /var/tmp/configure_r10k.pp << 'EOF'

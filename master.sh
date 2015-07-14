@@ -13,7 +13,7 @@ export PATH=$PATH:/opt/puppet/bin
 # Place the r10k configuration file
 cat > /var/tmp/configure_r10k.pp << 'EOF'
 class { 'r10k':
-  version           => '1.5.1',
+  version           => '2.0.2',
   sources           => {
     'puppet' => {
       'remote'  => 'https://github.com/cvquesty/puppet_repository.git',
